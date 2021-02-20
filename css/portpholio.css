@@ -1,0 +1,77 @@
+.section {
+  margin-bottom: 95px;
+}
+
+.portpholio-container {
+  width: 1200px;
+
+  padding: 0px 15px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-item {
+  margin-bottom: 95px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.projects-card {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.projects-card :hover,
+.projects-card :focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.portpholio-buttom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.portpholio-buttom li:not(:first-child) {
+  margin-left: 10px;
+}
+
+.button-item {
+  padding: 6px 22px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--teg-h-navigation);
+  background-color: var(--ourteam-background);
+  border: none;
+}
+
+.button-item:hover,
+.button-item:focus {
+  color: var(--white-color);
+  background-color: var(--hover-allblue);
+}
+
+.projects-item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--teg-h-navigation);
+}
+
+.projects-list {
+  font-size: 16px;
+  line-height: 30px;
+}
