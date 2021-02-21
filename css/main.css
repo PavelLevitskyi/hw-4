@@ -209,6 +209,7 @@
   align-items: center;
 
   margin-bottom: 30px;
+  color: var(--white-color);
 }
 
 .team-card:not(:first-child) {
@@ -219,29 +220,30 @@
   margin-left: 10px;
 }
 
-.social-links:hover,
-.icon-social:hover,
-.social-links:focus,
-.icon-social:focus {
-  fill: var(--white-color);
-  background-color: var(--hover-allblue);
-}
-
 .icon-social {
   fill: currentColor;
 }
 
 .social-links {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: var(--svg-color);
+  color: var(--svg-color);
+}
+
+.social-links:hover,
+.social-links:focus {
+  color: var(--white-color);
+  background-color: var(--hover-allblue);
 }
 
 .icon-social {
   margin: auto;
-  fill: var(--svg-color);
+  fill: currentColor;
 }
 
 /* our-clients */
