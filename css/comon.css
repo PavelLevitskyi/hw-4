@@ -8,7 +8,7 @@
   --footer-link: rgb(255, 255, 255, 0, 6);
   --ourteam-background: rgb(245, 244, 250, 1);
   --svg-color: rgb(175, 177, 184, 1);
-  --link-background: rgb(255, 255, 255, 0.1)
+  --link-background: rgb(255, 255, 255, 0.1);
 }
 
 ul {
@@ -133,8 +133,8 @@ h3 {
 
 .site-contacts {
   display: flex;
- justify-items: center;
- align-items: center;
+  justify-items: center;
+  align-items: center;
   color: var(--text-color);
 }
 
@@ -146,12 +146,13 @@ h3 {
   fill: var(--svg-color);
 }
 
-.contacts-phone :hover,
-.icon-contact :hover,
-.contacts-phone :focus,
-.icon-contact :focus {
+.site-contacts:hover,
+.site-contacts:focus {
   color: var(--hover-allblue);
-  fill: var(--hover-allblue);
+}
+
+.icon-contact {
+  fill: currentColor;
 }
 
 /* footer */
@@ -164,8 +165,7 @@ h3 {
   display: flex;
 
   width: 1200px;
-  /* align-items: center;
-  justify-content: space-between; */
+
   padding: 60px 15px;
   margin-left: auto;
   margin-right: auto;
@@ -174,11 +174,6 @@ h3 {
 .foot-con {
   display: flex;
   flex-direction: column;
-}
-
-/* .footer-logo,
-.footer-contacts {
-  margin-right: auto; */
 }
 
 .footer-logo {
@@ -214,15 +209,12 @@ h3 {
 }
 
 .footer-social {
-  
   margin-right: auto;
   margin-left: 70px;
   padding-top: 12px;
- 
- 
 }
 
-.footer-title{
+.footer-title {
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -231,11 +223,11 @@ h3 {
   color: var(--white-color);
 }
 
-.footer-item-link{
-display: flex;
+.footer-item-link {
+  display: flex;
 }
 
-.fsocial-links{
+.fsocial-links {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -245,7 +237,7 @@ display: flex;
 
   border-radius: 50%;
   background-color: var(--link-background);
-    fill: var(--white-color);
+  fill: var(--white-color);
 }
 
 .footer-item-link :not(:first-child) {
@@ -253,6 +245,6 @@ display: flex;
 }
 
 .fsocial-link :hover,
-.fsocial-link :focus{
+.fsocial-link :focus {
   background-color: var(--hover-allblue);
 }
