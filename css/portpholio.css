@@ -1,5 +1,6 @@
 .section {
-  margin-bottom: 95px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portpholio-container {
@@ -9,10 +10,6 @@
   margin: 0 auto;
   align-items: center;
   justify-content: space-between;
-}
-
-.site-item {
-  margin-bottom: 95px;
 }
 
 .projects {
