@@ -133,9 +133,8 @@ h3 {
 
 .site-contacts {
   display: inline-flex;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+ align-items: center;
+  justify-items: center;
   color: var(--text-color);
 }
 
@@ -144,6 +143,7 @@ h3 {
   align-items: center;
   justify-items: center;
   margin-right: 10px;
+  fill: var(--svg-color);
 }
 
 .contacts-phone :hover,
