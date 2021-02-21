@@ -28,12 +28,12 @@
   margin-top: 30px;
   margin-left: 30px;
 }
-
+/* 
 .projects-card :hover,
 .projects-card :focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
 .portpholio-buttom {
   display: flex;
@@ -62,6 +62,19 @@
 .button-item:focus {
   color: var(--white-color);
   background-color: var(--hover-allblue);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.project-tumb {
+  height: 404px;
+}
+
+.project-tumb:hover,
+.project-tumb:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .projects-item {

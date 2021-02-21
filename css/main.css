@@ -1,26 +1,28 @@
 /*by-our-product*/
 
 .product-section {
-  background-color: var(--background-black);
-}
-
-.product {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 95px;
-  display: flex;
-  flex-direction: column;
-  padding: 0px 15px;
-  align-items: center;
-  justify-content: center;
-
-  background-color: var(--background-black);
+  max-width: 1600px;
+  padding: 200px 15px;
+  text-align: center;
   color: var(--white-color);
+  display: block;
+  margin-bottom: 40px;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/fon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .product-item {
-  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
 
   font-weight: 900;
@@ -29,17 +31,21 @@
 }
 
 .product-link {
-  margin-bottom: 200px;
-
   background-color: var(--hover-allblue);
   color: var(--white-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   padding: 10px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 /*stydio-skills*/
+
+.skills-item {
+  padding-top: 94px;
+}
 
 .skills-container {
   display: flex;
@@ -49,7 +55,6 @@
   padding: 0px 15px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 95px;
 }
 
 .skiills-colon {
@@ -64,13 +69,9 @@
   margin-left: 30px;
 }
 
-.skills-title,
-.skills-text {
-  margin: 0;
-}
-
 .skills-title {
   display: inline-block;
+  margin-top: 30px;
 
   color: var(--teg-h-navigation);
   font-weight: 700;
@@ -86,7 +87,27 @@
   line-height: 24px;
 }
 
+.skiills-colon {
+  height: 120px;
+}
+
+.icon-box {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--ourteam-background);
+  border-radius: 4px;
+}
+
 /* work-section*/
+
+.work-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .work-container {
   width: 1200px;
@@ -94,7 +115,6 @@
   padding: 0px 15px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 95px;
   align-items: center;
 }
 
@@ -151,13 +171,16 @@
   flex-wrap: nowrap;
 }
 
-.team-foto li:not(:first-child) {
+.team-foto:not(:first-child) {
   margin-left: 30px;
 }
 
 .team-card {
   text-align: center;
   background-color: var(--white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .personal-foto {
@@ -174,8 +197,111 @@
 }
 
 .team-professions {
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 
   font-size: 16px;
   line-height: 19px;
 }
+
+.team-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 30px;
+}
+
+.team-card:not(:first-child) {
+  margin-left: 30px;
+}
+
+.social-link:not(:first-child) {
+  margin-left: 10px;
+}
+
+.social-links:hover,
+.icon-social:hover,
+.social-links:focus,
+.icon-social:focus {
+  fill: var(--white-color);
+  background-color: var(--hover-allblue);
+}
+
+.icon-social {
+  fill: currentColor;
+}
+
+.social-links {
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--svg-color);
+}
+
+.icon-social {
+  margin: auto;
+  fill: var(--svg-color);
+}
+
+/* our-clients */
+
+.clients-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-container {
+  width: 1200px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.clients-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: var(--teg-h-navigation);
+}
+
+.clients-companies {
+  display: flex;
+  /* color: var(--svg-color); */
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 170px;
+  height: 90px;
+  fill: var(--svg-color);
+
+  border: 1px solid var(--svg-color);
+  border-radius: 4px;
+}
+
+.clients-companies :not(:first-child) {
+  margin-left: 30px;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  fill: var(--hover-allblue);
+  border: 1px solid var(--hover-allblue);
+}
+
+/* .icon-contact {
+  fill: currentColor;
+} */
