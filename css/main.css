@@ -276,7 +276,6 @@
 
 .clients-companies {
   display: flex;
-  /* color: var(--svg-color); */
 }
 
 .clients-link {
@@ -286,7 +285,8 @@
 
   width: 170px;
   height: 90px;
-  fill: var(--svg-color);
+
+  color: var(--svg-color);
 
   border: 1px solid var(--svg-color);
   border-radius: 4px;
@@ -298,10 +298,10 @@
 
 .clients-link:hover,
 .clients-link:focus {
-  fill: var(--hover-allblue);
+  color: var(--hover-allblue);
   border: 1px solid var(--hover-allblue);
 }
 
-/* .icon-contact {
+.icon-contact {
   fill: currentColor;
-} */
+}
