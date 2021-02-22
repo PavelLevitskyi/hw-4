@@ -135,6 +135,16 @@
   margin-left: 20px;
 }
 
+.work-tumb {
+  width: 370px;
+}
+
+.work-tumb img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
 /*our-team*/
 
 .team {
@@ -182,6 +192,17 @@
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-tumb {
+  width: 270px;
+  padding-bottom: 30px;
+}
+
+.team-tumb img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
 .personal-foto {
   margin-bottom: 30px;
 }
@@ -207,7 +228,6 @@
   justify-content: center;
   align-items: center;
 
-  margin-bottom: 30px;
   color: var(--white-color);
 }
 
