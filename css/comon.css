@@ -18,6 +18,8 @@ ul {
 }
 
 a {
+  display: inline-flex;
+
   text-decoration: none;
   color: black;
 }
@@ -69,6 +71,9 @@ h3 {
 .site-item .container {
   display: flex;
   align-items: center;
+
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .site-item {
@@ -90,8 +95,6 @@ h3 {
 }
 
 .logo {
-  margin-top: 25px;
-  margin-bottom: 25px;
   margin-right: 92px;
 
   font-family: Raleway;

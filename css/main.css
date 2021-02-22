@@ -6,7 +6,6 @@
   text-align: center;
   color: var(--white-color);
   display: block;
-  margin-bottom: 40px;
 
   background-image: linear-gradient(
       to right,
@@ -304,6 +303,6 @@
   border: 1px solid var(--hover-allblue);
 }
 
-.icon-contact {
+.icon-contact-client {
   fill: currentColor;
 }
