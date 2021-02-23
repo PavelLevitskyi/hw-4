@@ -70,7 +70,7 @@
 
 .skills-title {
   display: inline-block;
-  margin-top: 30px;
+  margin-bottom: 10px;
 
   color: var(--teg-h-navigation);
   font-weight: 700;
@@ -96,6 +96,8 @@
   height: 120px;
   justify-content: center;
   align-items: center;
+
+  margin-bottom: 30px;
 
   background-color: var(--ourteam-background);
   border-radius: 4px;
@@ -180,7 +182,7 @@
   flex-wrap: nowrap;
 }
 
-.team-foto:not(:first-child) {
+.team-foto .team-card:not(:first-child) {
   margin-left: 30px;
 }
 
@@ -194,7 +196,6 @@
 
 .team-tumb {
   width: 270px;
-  padding-bottom: 30px;
 }
 
 .team-tumb img {
@@ -203,8 +204,9 @@
   width: 100%;
 }
 
-.personal-foto {
-  margin-bottom: 30px;
+.workers {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-names {
